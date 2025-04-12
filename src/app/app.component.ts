@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { ChamoyComponent } from "./chamoy/chamoy.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, ChamoyComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
